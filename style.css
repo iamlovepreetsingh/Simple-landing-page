@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: url('background image.jpg') top/100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-bar{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar h2{
+    border: 2px solid white;
+    padding: 0 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-links a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.menu-links a:hover{
+    text-decoration: underline;
+}
+
+.center{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.center p{
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.center a{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgb(197, 130, 118), rgb(231, 148, 134));
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.center a:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, rgb(223, 96, 96), rgb(209, 75, 75));
+}
+
+
+.ending{
+    width: 100%;
+    display: flex;
+}
+
+
+.ending .icon{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+}
+
+.ending .box{
+    width: 25%;
+    height: 200px;
+    background: rgba(29, 28, 28, 0.199);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 0.2s;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ending .box h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.ending .box:hover{
+    background: rgba(194, 210, 255, 0.233);
+}
